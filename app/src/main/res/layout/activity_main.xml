@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/coffee" />
+
+    <TextView android:text="One Cup"
+        android:id="@+id/onecup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="56sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact"
+        android:text="Contact : 9887729869  "
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="26sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp"
+      />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Life Without Coffee Is Scary  "
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+
+        android:layout_below="@+id/onecup"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: Imaginary Mall"
+        android:textSize="26sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/contact"/>
+
+</RelativeLayout>
